@@ -7,16 +7,14 @@
 body {
   background-color: rgb(12, 12, 12);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-image: url(./Imagenes/fondobody.jpg); 
+  background-image: url(./Imagenes/fondobody.jpg);
   width: 100%;
   height: 100%;
-  /* background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; */
+  background-size: cover;
   width: 100%;
   height: 100px;
-  
-  
 }
 
 body {
@@ -78,11 +76,10 @@ body {
   padding: 10px;
 }
 /* .menu li { */
-  /* float: left; */
-  /* display: table-column; */
-  /* text-align: center; */
-  /* justify-content: center; */
-
+/* float: left; */
+/* display: table-column; */
+/* text-align: center; */
+/* justify-content: center; */
 
 .menu li a:hover {
   color: blue;
@@ -97,7 +94,14 @@ body {
   justify-content: center;
 }
 
-.inicio img{
+.carousel-item img {
+  height: 850px;
+  object-fit: cover;
+  padding: 40px 80px 40px 80px;
+  
+}
+
+.inicio img {
   width: 450px;
   height: 450px;
   text-align: center;
@@ -606,15 +610,15 @@ body {
   text-decoration: none;
 }
 
-.container-img{
-padding-bottom: 60px;
-justify-content: center;
-display: grid;
+.container-img {
+  padding-bottom: 60px;
+  justify-content: center;
+  display: grid;
 }
-.grid h2{ 
+.grid h2 {
   text-align: center;
   justify-content: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: #291d1d;
   text-decoration: underline;
 }
@@ -856,6 +860,14 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.contacto1 {
+  text-align: center;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
 .imagen_perros {
   text-align: center;
   padding-bottom: 25px;
@@ -962,9 +974,8 @@ body {
   .container-img .box-img:nth-child(1) {
     grid-column-start: span 1;
   }
-  
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
   .container-img {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
@@ -972,36 +983,34 @@ body {
   .container-img .box-img img {
     height: 200px;
   }
-   .menu ul {
+  .menu ul {
     text-align: left;
     display: grid;
   }
 
-  .box2{
-     display: none; 
-   
+  .box2 {
+    display: none;
   }
 
-  .pie-pagina .grupo-1 .imagenpit{
+  .pie-pagina .grupo-1 .imagenpit {
     position: absolute;
     padding-bottom: 20px;
   }
 
-  .box .red-social{
+  .box .red-social {
     position: absolute;
     text-align: left;
   }
 
-  .logopit{
+  .logopit {
     min-width: 250px;
     text-align: left;
     display: grid;
     position: fixed;
   }
 
-  .inicio img{
+  .inicio img {
     min-width: 150px;
     min-height: 150px;
   }
 }
-
