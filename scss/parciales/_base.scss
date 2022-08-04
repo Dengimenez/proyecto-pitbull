@@ -1,0 +1,25 @@
+/* Body del index */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(12, 12, 12);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+  }
+  ::selection{
+    background-color: black;
+    color: orange;
+  }
+  body {
+    background-color: #f0f0f0;
+    color: rgb(0, 0, 0);
+  }

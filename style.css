@@ -431,7 +431,7 @@ body {
 .logo_encabezado {
   padding: bottom 40px;
   display: inline;
-} */
+} 
 .fotofoto {
   text-align: center;
   justify-content: center;
@@ -772,3 +772,4 @@ input:enabled {
     display: grid;
     position: fixed;
   }
+}
