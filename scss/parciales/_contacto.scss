@@ -3,7 +3,7 @@
   /* comienzo body */
   body {
     background-color: rgba(207, 149, 90, 0);
-    color: rgb(24, 18, 18);
+    color: $color;
   } 
   
   .contacto {
@@ -23,7 +23,7 @@
   }
   
   input::placeholder {
-    color: black;
+    color: $color;
   }
   
   .imagen_perros {
@@ -44,28 +44,28 @@
   }
   
   input:focus {
-    border: 2px dotted #444}
+    border: 2px dotted $colorinput}
   
   .contacto h2 {
     text-align: center;
     font-size: 25px;
-    text-decoration: underline black;
+    text-decoration: underline $color;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
   input:enabled {
-    background-color: rgb(180, 178, 178);
-    color: black;
+    background-color: $colorTerciario;
+    color: $color;
   }
   .form-control:enabled {
-    background-color: rgb(180, 178, 178);
-    color: black;
+    background-color: $colorTerciario;
+    color: $color;
   }
   .contacto img {
     text-align: center;
   }
   .input:checked + span {
-    color: red;
+    color: $colorSecundario;
   }
   .nombre {
     text-align: center;
