@@ -12,30 +12,38 @@
   }
   
   .inicioo {
-    color: black;
+    color: $color;
     min-height: 500px;
      display: flex; 
     
   }
-  .inicio__titulo {
-    font-size: 40px;
-    text-align: center;
-    padding-left: 20px;
-    color: orange ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-    
+  
+  $estilos: (
+  color: orange,
+  centro: center,
+  tfuente: 40px,
+  padding: 20px,
+  );
+
+  .inicio__titulo{
+    color: map-get( $estilos, color);
+    text-align: map-get($estilos, centro );
+    padding: map-get($estilos, padding );
+    font-size: map-get($estilos, tfuente);
+  }
+  
   .inicio__parrafo{
   font-size: 20px;
   text-align: center;
   padding-left: 20px;
-  color: black;
+  color: $color;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .inicio__izquierda{
     width: 100%;
     background-color:$colorPrincipal;
-    color: black;
+    color: $color;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -58,7 +66,7 @@
     width: 50%;
     height: 100%;
     background-color: $colorPrincipal;
-    color: black;
+    color: $color;
     display: flex;
     flex-direction: column;
     justify-content: center;

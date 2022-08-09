@@ -3,7 +3,7 @@
   /* comienzo body */
   body {
     background-color: rgba(210, 180, 140, 0);
-    color: black;
+    color: $color;
   }
   
   .logo_encabezado {
@@ -25,7 +25,7 @@
     font-family: "Courier New", Courier, monospace;
     border: solid;
     background-color: rgb(58, 0, 219);
-    color: black;
+    color: $color;
   }
   .informacion__titulo {
     text-align: center;
@@ -34,23 +34,26 @@
     font-style: unset;
     text-decoration: underline;
   }
-  .informacion {
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 30px;
-  }
-  .informacion__info {
-    color: rgb(29, 20, 20);
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    text-align: center;
-  }
-  .informacion__info2 {
-    color: rgb(20, 16, 16);
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    text-align: center;
-  }
-  /* fin body */
+
+.informacion{
+  text-align: center;
+
+}
+
+.informacion__info{
+  @extend .informacion;
+  color: $color;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.informacion__info2{
+  @extend .informacion;
+  color: $color;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
