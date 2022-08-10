@@ -48,7 +48,7 @@ body {
 }
 
 .inicio__titulo {
-  color: orange;
+  color: black;
   text-align: center;
   padding: 20px;
   font-size: 40px;
@@ -95,14 +95,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.fondoo img:hover {
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -o-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.1);
 }
 
 .fondoo img {
