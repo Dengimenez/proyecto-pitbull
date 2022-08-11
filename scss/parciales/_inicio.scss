@@ -49,52 +49,48 @@
     align-items: center; 
     height: 520px;
   }
-  .collapse{
-    background-color: rgb(128, 125, 125);
-    color: $colorPrincipal;
+  .collapse {
+    background-color: #807d7d;
+    color: white;
+    a {
+      &:hover {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+      }
+    }
   }
-  
-  .collapse a:hover{
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-     transform: scale(1.2)
-   } 
-  .fondoo,
-  .presentacion{
+  .fondoo {
     width: 50%;
     height: 100%;
-    background-color: $colorPrincipal;
-    color: $color;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .presentacion {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
-  //   .fondoo img:hover{
-  //      -webkit-transform: scale(1.0);
-  //      -moz-transform: scale(1.0);
-  //      -o-transform: scale(1.0);
-  //      -ms-transform: scale(1.0);
-  //      transform: scale(1)
-  // } 
-  
-  
-  .fondoo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
   .suscribir {
-    margin-bottom: 40px;  
+    margin-bottom: 40px;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: larger;
     margin-top: 30px;
-    
   }
-  
-  /* fin del body  */

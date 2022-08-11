@@ -33,39 +33,40 @@
     padding-bottom: 25px;
     margin: 20px; }
   
-  .historia img {
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 30px;
-    justify-content: center; }
-  
-  .parrafo2 {
-    text-align: center;
-    justify-content: center;
-    float: left;
-    padding-bottom: 15px; }
-  
-  .parrafo2 img {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 15px; }
-  
-  .alimentacion {
-    text-align: center;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: inherit;
-    font-weight: 30px; }
-  
-  .alimentacion img {
-    text-align: center; }
-  
-  .alimentacion2 {
-    text-align: center;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: inherit;
-    font-weight: 30px;
-    padding-bottom: 40px;
-    padding-top: 30px; }
-  
-  /* fin body */
+    .historia {
+      img {
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        justify-content: center;
+      }
+    }
+    .parrafo2 {
+      text-align: center;
+      justify-content: center;
+      float: left;
+      padding-bottom: 15px;
+      img {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 15px;
+      }
+    }
+    .alimentacion {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-style: inherit;
+      font-weight: 30px;
+      img {
+        text-align: center;
+      }
+    }
+    .alimentacion2 {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-style: inherit;
+      font-weight: 30px;
+      padding-bottom: 40px;
+      padding-top: 30px;
+    }
 

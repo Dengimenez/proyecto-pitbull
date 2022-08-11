@@ -27,37 +27,34 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 45px;
     padding-right: 45px;
+    &:nth-child(4) {
+      color: #d98de0;
+    }
+    &:nth-child(7) {
+      color: blue;
+    }
+    &:nth-child(5) {
+      color: orange;
+    }
+    &:nth-child(3) {
+      color: red;
+    }
+    &:nth-child(9) {
+      color: greenyellow;
+    }
   }
-  
   .parr7 {
     padding-bottom: 25px;
   }
   .nombres {
     text-align: center;
     justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     padding-bottom: 25px;
     margin: 25px;
     float: right;
     text-decoration: none;
   }
-  
-  .curiosidades:nth-child(4){
-   color: rgb(217, 141, 224);
-  }
-   
-  .curiosidades :nth-child(7){
-    color:blue;}
-  .curiosidades :nth-child(5){
-    color:orange;
-  }
-  .curiosidades :nth-child(3){
-    color:red;
-  }
-  .curiosidades :nth-child(9){
-    color:greenyellow;}
-  
     
   /* comienzo galeria grid */
   .container-img {
@@ -95,12 +92,14 @@
   grid-row-start: span 2;
   }
   
-  .grid h2 {
-    text-align: center;
-    justify-content: center;
-    font-family: "Times New Roman", Times, serif;
-    color: #291d1d;
-    text-decoration: underline;
-  } 
+  .grid {
+    h2 {
+      text-align: center;
+      justify-content: center;
+      font-family: "Times New Roman", Times, serif;
+      color: #291d1d;
+      text-decoration: underline;
+    }
+  }
   
   /* finaliza galeria grid  */

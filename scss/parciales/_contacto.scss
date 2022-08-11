@@ -1,96 +1,88 @@
-/* seccion "contacto" */
-  
-  /* comienzo body */
-  body {
-    background-color: rgba(207, 149, 90, 0);
-    color: $color;
-  } 
-  
-  .contacto {
-    text-align: center;
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-
-  .contacto1 {
-    text-align: center;
-    font-size: larger;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    padding-bottom: 50px;
-    padding-top: 40px;
-  
-  }
-
-  input::placeholder {
-    color: $color;
-  }
-  
-  .imagen_perros {
-    text-align: center;
-    padding-bottom: 25px;
-    padding-top: 30px;
-    border-radius: 100px;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .aclaracion {
-    text-align: center;
-    font-size: large;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: oblique;
-  }
-  
-  input:focus {
-    border: 2px dotted $colorinput}
-  
-  .contacto h2 {
-    text-align: center;
-    font-size: 25px;
-    text-decoration: underline $color;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-  }
-  input:enabled {
-    background-color: $colorTerciario;
-    color: $color;
-  }
-  .form-control:enabled {
-    background-color: $colorTerciario;
-    color: $color;
-  }
-  .contacto img {
-    text-align: center;
-  }
-  .input:checked + span {
-    color: $colorSecundario;
-  }
-  .nombre {
-    text-align: center;
-    font-size: larger;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  .email {
-    text-align: center;
-    font-size: larger;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  .mensaje {
-    text-align: center;
-    font-size: larger;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  .terminos {
-    text-align: center;
-    font-size: larger;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    margin-bottom: 20px;
-  }
-  /* fin body */
+body {
+	background-color: rgba(207, 149, 90, 0);
+	color: black;
+}
+.contacto {
+	text-align: center;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	h2 {
+		text-align: center;
+		font-size: 25px;
+		text-decoration: underline black;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	}
+	img {
+		text-align: center;
+	}
+}
+.contacto1 {
+	text-align: center;
+	font-size: larger;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+input {
+	&::placeholder {
+		color: black;
+	}
+	&:focus {
+		border: 2px dotted #444444;
+	}
+	&:enabled {
+		background-color: #b4b2b2;
+		color: black;
+	}
+}
+.imagen_perros {
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 30px;
+	border-radius: 100px;
+	width: 100%;
+	height: 100%;
+}
+.aclaracion {
+	text-align: center;
+	font-size: large;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: oblique;
+}
+.form-control {
+	&:enabled {
+		background-color: #b4b2b2;
+		color: black;
+	}
+}
+.input {
+	&:checked {
+		+ {
+			span {
+				color: red;
+			}
+		}
+	}
+}
+.nombre {
+	text-align: center;
+	font-size: larger;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.email {
+	text-align: center;
+	font-size: larger;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.mensaje {
+	text-align: center;
+	font-size: larger;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.terminos {
+	text-align: center;
+	font-size: larger;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	margin-bottom: 20px;
+}

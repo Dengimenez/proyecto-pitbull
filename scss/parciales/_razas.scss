@@ -1,49 +1,46 @@
-/* seccion "razas" */
-  
+
 .title {
-    text-align: center;
-    font-size: 20px;
-    font-family: "Courier New", Courier, monospace;
-    border: solid;
-    background-color: rgba(0, 0, 0, 0);
-    color: rgb(8, 8, 6);
-  }
-  
-  .razas article {
-    text-align: center;
-    font-size: medium;
-    font-style: italic;
-     padding-top: 25px; 
-    color: $color;
-  }
-  
-  p::first-letter {
-    font-size: 140%;
-    color: grey;
-  }
-  
-  .razas h2 {
-    text-align: center;
-    text-decoration: none;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-size: larger;
-    border: solid;
-    background-color: rgb(124, 117, 117);
-    color: rgb(24, 21, 17);
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .contenedor {
-    padding-top: 25px;
-  }
-  .contenedor p {
-    color: rgb(8, 7, 7);
-    font-size: medium;
-    font-family: sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 25px;
-  }
-  
-  /* fin body */
+	text-align: center;
+	font-size: 20px;
+	font-family: "Courier New", Courier, monospace;
+	border: solid;
+	background-color: rgba(0, 0, 0, 0);
+	color: #080806;
+}
+.razas {
+	article {
+		text-align: center;
+		font-size: medium;
+		font-style: italic;
+		padding-top: 25px;
+		color: black;
+	}
+	h2 {
+		text-align: center;
+		text-decoration: none;
+		font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+		font-size: larger;
+		border: solid;
+		background-color: #7c7575;
+		color: #181511;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+}
+p {
+	&::first-letter {
+		font-size: 140%;
+		color: grey;
+	}
+}
+.contenedor {
+	padding-top: 25px;
+	p {
+		color: #080707;
+		font-size: medium;
+		font-family: sans-serif;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-top: 25px;
+	}
+}
