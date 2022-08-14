@@ -1,17 +1,4 @@
 
-  
-  /* media queries para desk top */
-  @media screen and (max-width: 1023px) {
-    .container-img {
-      width: 95%;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-      grid-template-rows: 200px;
-    }
-    .container-img .box-img:nth-child(1) {
-      grid-column-start: span 1;
-    }
-  }
   /* media queries para tablet */
   @media screen and (max-width: 720px) {
     .inicio__izquierda{
@@ -70,8 +57,8 @@
       .presentacion{
         width: 90%;
         height: 90%;
-        
       }
+
      .menu ul {
         display:inline-block;
         justify-content: center;

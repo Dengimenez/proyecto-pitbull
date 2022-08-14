@@ -575,19 +575,6 @@ input:enabled {
   margin-bottom: 20px;
 }
 
-/* media queries para desk top */
-@media screen and (max-width: 1023px) {
-  .container-img {
-    width: 95%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-template-rows: 200px;
-  }
-  .container-img .box-img:nth-child(1) {
-    grid-column-start: span 1;
-  }
-}
-
 /* media queries para tablet */
 @media screen and (max-width: 720px) {
   .inicio__izquierda {
@@ -709,6 +696,16 @@ input:enabled {
     text-align: left;
     display: grid;
   }
+  .navbar{
+    font-size: 18px;
+    text-align: center;
+  
+  }
+  .navbar button{
+    justify-content: right;
+    text-align: right;
+    display: block;
+  }
   .suscribir {
     padding-top: 50px;
   }
@@ -726,6 +723,12 @@ input:enabled {
   }
   .box2 {
     display: none;
+  }
+  .pie-pagina .grupo-1{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
   }
   .pie-pagina .grupo-1 .imagenpit {
     position: absolute;
