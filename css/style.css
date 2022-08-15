@@ -5,6 +5,7 @@
 }
 
 body {
+  background-image: url(/imagenes-comprimidas/Mundo\ Pitbull\ \(1\).png);
   background-color: #0c0c0c;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   width: 100%;
@@ -14,7 +15,6 @@ body {
   background-size: cover;
   width: 100%;
   height: 100px;
-  background-color: white;
   color: black;
 }
 
@@ -60,7 +60,6 @@ body {
 
 .inicio__izquierda {
   width: 100%;
-  background-color: white;
   color: black;
   display: flex;
   justify-content: center;
@@ -69,7 +68,7 @@ body {
 }
 
 .collapse {
-  background-color: #807d7d;
+  background-color: #f3a4498c;
   color: white;
 }
 
@@ -84,7 +83,6 @@ body {
 .fondoo {
   width: 50%;
   height: 100%;
-  background-color: white;
   color: black;
   display: flex;
   flex-direction: column;
@@ -101,7 +99,6 @@ body {
 .presentacion {
   width: 50%;
   height: 100%;
-  background-color: white;
   color: black;
   display: flex;
   flex-direction: column;
@@ -119,7 +116,7 @@ body {
 
 .pie-pagina {
   width: 100%;
-  background-color: #0a141dc9;
+  background-color: #a8762ab7;
 }
 
 .pie-pagina .grupo-1 {
@@ -179,10 +176,10 @@ body {
 }
 
 .pie-pagina .grupo-2 {
-  background-color: #0a1a2a;
+  background-color: #000000;
   padding: 15px 10px;
   text-align: center;
-  color: #030202;
+  color: #ffffff;
 }
 
 .pie-pagina .grupo-2 small {
@@ -195,19 +192,14 @@ body {
 }
 
 .historia__titulo {
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-style: inherit;
-  font-weight: 30px;
-  padding-top: 40px;
-  text-decoration: underline;
+  font-size: calc(1.325rem + .9vw);
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
 }
 
-.historia__parrafo2 {
-  margin: 20px;
-  justify-content: center;
-  text-align: center;
-}
 
 .historia__parrafo {
   text-align: center;
@@ -228,27 +220,40 @@ body {
   padding-bottom: 25px;
   margin: 20px;
 }
+.historia__parrafo2 {
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+}
+ 
 
 .historia img {
   text-align: center;
   padding-bottom: 40px;
   padding-top: 30px;
   justify-content: center;
+  width: 50%;
+  height: 50%;
 }
 
 .parrafo2 {
   text-align: center;
   justify-content: center;
-  float: left;
   padding-bottom: 15px;
 }
 
-.parrafo2 img {
+.parrafo2 h3{
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border: solid;
+  background-color: #000000e7;
+  color: white;
 }
-
+.historia__parrafo2 img{
+  width: 90%;
+  height: 90%;
+}
 .alimentacion {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -256,10 +261,14 @@ body {
   font-weight: 30px;
 }
 
-.alimentacion img {
+.alimentacion h3{
   text-align: center;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border: solid;
+  background-color: #000000e7;
+  color: white;
 }
-
 .alimentacion2 {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -269,15 +278,25 @@ body {
   padding-top: 30px;
 }
 
-.title {
+.alimentacion2 h4{
   text-align: center;
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
   border: solid;
-  background-color: rgba(0, 0, 0, 0);
-  color: #080806;
+  background-color: #000000e7;
+  color: white;
 }
 
+.title {
+  font-size: calc(1.325rem + .9vw);
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+}
+
+/* Comienzo Raza  */
 .razas article {
   text-align: center;
   font-size: medium;
@@ -292,7 +311,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: larger;
   border: solid;
-  background-color: #7c7575;
+  background-color: #b38e5fdc;
   color: #181511;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -317,14 +336,7 @@ p::first-letter {
 }
 
 /* seccion curiosidades */
-.title {
-  text-align: center;
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-  border: solid;
-  background-color: rgba(0, 0, 0, 0);
-  color: #1a1715;
-}
+
 
 .resumen {
   text-align: center;
@@ -347,39 +359,30 @@ p::first-letter {
   padding-right: 45px;
 }
 
-.curiosidades:nth-child(4) {
-  color: #d98de0;
+.curiosidades:nth-child(1) {
+  color: #000000;
 }
 
-.curiosidades:nth-child(7) {
-  color: blue;
-}
-
-.curiosidades:nth-child(5) {
-  color: orange;
+.curiosidades:nth-child(2) {
+  color: rgb(0, 0, 0);
 }
 
 .curiosidades:nth-child(3) {
-  color: red;
+  color: rgb(0, 0, 0);
 }
 
-.curiosidades:nth-child(9) {
-  color: greenyellow;
+.curiosidades:nth-child(4) {
+  color: rgb(0, 0, 0);
+}
+
+.curiosidades:nth-child(5) {
+  color: rgb(0, 0, 0);
 }
 
 .parr7 {
   padding-bottom: 25px;
 }
 
-.nombres {
-  text-align: center;
-  justify-content: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding-bottom: 25px;
-  margin: 25px;
-  float: right;
-  text-decoration: none;
-}
 
 /* comienzo galeria grid */
 .container-img {
@@ -414,13 +417,13 @@ p::first-letter {
   grid-row-start: span 2;
 }
 
-.grid h2 {
-  text-align: center;
-  justify-content: center;
-  font-family: "Times New Roman", Times, serif;
-  color: #291d1d;
-  text-decoration: underline;
+.galeria h2{
+text-align: center;
+font-size: 35px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: solid;
 }
+
 
 /* finaliza galeria grid  */
 /* seccion "sobre nosotros" */
@@ -449,20 +452,21 @@ body {
 }
 
 .informacion h1, .informacion__info h1, .informacion__info2 h1 {
-  text-align: center;
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-  border: solid;
-  background-color: #3a00db;
-  color: black;
+  font-size: calc(1.325rem + .9vw);
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
 }
 
 .informacion__titulo {
+  font-size: calc(1.325rem + .9vw);
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 36px;
-  font-style: unset;
-  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .informacion__info {
@@ -493,13 +497,15 @@ body {
   margin-bottom: 25px;
 }
 
-.contacto h2 {
-  text-align: center;
-  font-size: 25px;
-  text-decoration: underline black;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+.contacto h2{
+  font-size: calc(1.325rem + .9vw);
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+  
 }
-
 .contacto img {
   text-align: center;
 }
@@ -604,7 +610,7 @@ input:enabled {
   .inicio__titulo {
     font-size: 25px;
     text-align: center;
-    color: orange;
+    color: rgb(0, 0, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .menu {
@@ -668,7 +674,7 @@ input:enabled {
   .inicio__titulo {
     font-size: 25px;
     text-align: center;
-    color: orange;
+    color: rgb(0, 0, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 180px;
   }
@@ -714,29 +720,32 @@ input:enabled {
     height: 120%;
     object-fit: cover;
   }
-  .container-img {
-    width: 45%;
-    grid-template-columns: repeat(1, 1fr);
+
+  .historia__parrafo img{
+    width: 90%;
+    height: 90%;
   }
-  .container-img .box-img img {
-    height: 100px;
+  
+  .grid .container-img .box-img img{
+    width: 55%;
+    grid-template-columns: repeat(2, 2fr);
+    height: 90%;
+    padding: 10px;
+    margin: 10px;
   }
+  
   .box2 {
     display: none;
   }
-  .pie-pagina .grupo-1{
-    display: grid;
-    justify-content: center;
-    text-align: center;
-    
-  }
+  
   .pie-pagina .grupo-1 .imagenpit {
     position: absolute;
     padding-bottom: 20px;
   }
   .box .red-social {
-    position: absolute;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
+    display:flex; 
   }
   .logopit {
     min-width: 250px;
@@ -744,4 +753,10 @@ input:enabled {
     display: grid;
     position: fixed;
   }
+}
+@media screen and (max-width: 420px){
+.container-img{
+  padding: 50px;
+  margin: 13px;
+}
 }
