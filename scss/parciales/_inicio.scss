@@ -10,7 +10,10 @@
     width: 100%;
     display: inline;
   }
-  
+  .conteiner{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   .inicioo {
     color: $color;
     min-height: 500px;
@@ -42,7 +45,6 @@
   
   .inicio__izquierda{
     width: 100%;
-    background-color:$colorPrincipal;
     color: $color;
     display: flex;
     justify-content: center;
@@ -50,8 +52,8 @@
     height: 520px;
   }
   .collapse {
-    background-color: #807d7d;
-    color: white;
+    background-color: #dba033a4;
+    color: rgb(10, 9, 9);
     a {
       &:hover {
         -webkit-transform: scale(1.2);
@@ -65,7 +67,6 @@
   .fondoo {
     width: 50%;
     height: 100%;
-    background-color: white;
     color: black;
     display: flex;
     flex-direction: column;
@@ -80,7 +81,6 @@
   .presentacion {
     width: 50%;
     height: 100%;
-    background-color: white;
     color: black;
     display: flex;
     flex-direction: column;
