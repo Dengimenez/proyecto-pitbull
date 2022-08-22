@@ -1,58 +1,63 @@
- /* seccion "sobre nosotros" */
+body {
+	background-color: rgba(210, 180, 140, 0);
+	color: black;
+}
+.logo_encabezado {
+	padding: bottom 40px;
+	display: inline;
+}
+.fotofoto {
+	text-align: center;
+	justify-content: center;
+	width: 500px;
+	height: 500px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.figure1 {
+	img {
+		width: 60%;
+		height: 60%;
+	}
+}
+.informacion {
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	h1 {
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+}
   
-  /* comienzo body */
-  body {
-    background-color: rgba(210, 180, 140, 0);
-    color: $color;
-  }
-  
-  .logo_encabezado {
-    padding: bottom 40px;
-    display: inline;
-  } 
-  .fotofoto {
-    text-align: center;
-    justify-content: center;
-    width: 500px;
-    height: 500px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  
-  .informacion {
-    h1 {
-      text-align: center;
-      font-size: 20px;
-      font-family: "Courier New", Courier, monospace;
-      border: solid;
-      background-color: #3a00db;
-      color: $color;
-    }
-    text-align: center;
-  }
-  
-  .informacion__titulo {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-size: 36px;
-    font-style: unset;
-    text-decoration: underline;
-  }
+.informacion__titulo {
+	text-align: center;
+	font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .informacion__info{
   @extend .informacion;
-  color: $color;
-  font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  text-align: center;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: black;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	h1 {
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 }
 
 .informacion__info2{
   @extend .informacion;
-  color: $color;
-  font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
   text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: black;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: larger;
+	h1 {
+		text-align: center;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
 }

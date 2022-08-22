@@ -4,8 +4,8 @@
 	box-sizing: border-box;
 }
 body {
-	background-image: url(/imagenes-comprimidas/Mundo\ Pitbull\ \(1\).png);
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-image: url(/imagenes-comprimidas/fondo-proyecto.png);
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -13,9 +13,9 @@ body {
 	background-size: cover;
 	width: 100%;
 	height: 100px;
-	
+	color: black;
 }
 ::selection {
-	background-color: $color;
+	background-color: black;
 	color: orange;
 }

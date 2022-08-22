@@ -5,9 +5,8 @@
 }
 
 body {
-  
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-image: url(../imagenes-comprimidas/Mundo\ Pitbull\ \(1\).png);
+  background-image: url(/imagenes-comprimidas/fondo-proyecto.png);
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -68,9 +67,8 @@ body {
 }
 
 .collapse {
-  background-color: #d3a342c0;
-  color: white;
-  
+  background-color: #dba033a4;
+  color: #0a0909;
 }
 
 .collapse a:hover {
@@ -118,7 +116,6 @@ body {
 .pie-pagina {
   width: 100%;
   height: 100%;
-  
 }
 
 .pie-pagina .grupo-1 {
@@ -168,13 +165,13 @@ body {
 }
 
 .pie-pagina .grupo-1 .red-social a:hover {
-  color: rgb(33, 71, 71);
+  color: #214747;
 }
 
 .pie-pagina .grupo-1 .red-social img {
   width: 50px;
   height: 50px;
-   overflow: unset; 
+  overflow: unset;
 }
 
 .pie-pagina .grupo-2 {
@@ -186,10 +183,8 @@ body {
 
 .pie-pagina .grupo-2 small {
   font-size: 15px;
-  
 }
 
-/* seccion historia */
 .inicio {
   display: inline;
 }
@@ -236,14 +231,15 @@ body {
   padding-bottom: 15px;
 }
 
-.parrafo2 h3{
+.parrafo2 h3 {
   text-align: center;
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   border: solid;
   background-color: #000000e8;
-  color: rgb(255, 255, 255);
+  color: white;
 }
+
 .parrafo2 img {
   text-align: center;
   padding-top: 5px;
@@ -258,14 +254,15 @@ body {
   font-weight: 30px;
 }
 
-.alimentacion h3{
+.alimentacion h3 {
   text-align: center;
   font-size: large;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: solid;
   background-color: #000000e8;
-  color: rgb(255, 255, 255);
+  color: white;
 }
+
 .alimentacion img {
   text-align: center;
 }
@@ -279,16 +276,15 @@ body {
   padding-top: 30px;
 }
 
-.alimentacion2 h4{
+.alimentacion2 h4 {
   text-align: center;
   font-size: large;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: solid;
   background-color: #000000e8;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
-/* Comienzo de Raza */
 .razas article {
   text-align: center;
   font-size: medium;
@@ -309,18 +305,27 @@ body {
   padding-bottom: 25px;
 }
 
-p::first-letter {
-  font-size: 140%;
-  color: grey;
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border: solid;
+  background-color: rgba(0, 0, 0, 0);
+  color: #1a1715;
 }
 
-.figure-caption{
+p::first-letter {
+  font-size: 140%;
+  color: rgba(163, 65, 0, 0.952);
+}
+
+.figure-caption {
   color: #000000;
 }
+
 .contenedor {
   padding-top: 25px;
 }
-
 
 .contenedor p {
   color: #080707;
@@ -329,13 +334,6 @@ p::first-letter {
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 25px;
-}
-
-/* seccion curiosidades */
-.title {
-  text-align: center;
-  font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .resumen {
@@ -364,19 +362,19 @@ p::first-letter {
 }
 
 .curiosidades:nth-child(7) {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .curiosidades:nth-child(5) {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .curiosidades:nth-child(3) {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .curiosidades:nth-child(9) {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .parr7 {
@@ -393,6 +391,11 @@ p::first-letter {
   text-decoration: none;
 }
 
+.galeria h2 {
+  text-align: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 /* comienzo galeria grid */
 .container-img {
@@ -403,19 +406,19 @@ p::first-letter {
   max-width: 1100px;
   margin: auto;
   margin-top: 60px;
-  grid-template-columns: repeat(1, 2fr);
-  grid-template-rows: 200px;
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
 }
 
 .container-img .box-img figure {
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
 
 .container-img .box-img img {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -427,6 +430,11 @@ p::first-letter {
   grid-row-start: span 2;
 }
 
+.container-img .box-img figure {
+  height: 100%;
+  width: 100%;
+}
+
 .grid h2 {
   text-align: center;
   justify-content: center;
@@ -435,9 +443,6 @@ p::first-letter {
   text-decoration: underline;
 }
 
-/* finaliza galeria grid  */
-/* seccion "sobre nosotros" */
-/* comienzo body */
 body {
   background-color: rgba(210, 180, 140, 0);
   color: black;
@@ -457,20 +462,20 @@ body {
   padding-bottom: 25px;
 }
 
-.figure1 img{
+.figure1 img {
   width: 60%;
   height: 60%;
 }
+
 .informacion, .informacion__info, .informacion__info2 {
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .informacion h1, .informacion__info h1, .informacion__info2 h1 {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
-} 
+}
 
 .informacion__titulo {
   text-align: center;
@@ -479,16 +484,30 @@ body {
 }
 
 .informacion__info {
-  color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.informacion__info h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .informacion__info2 {
-  color: black;
-  font-size: larger;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.informacion__info2 h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -584,11 +603,16 @@ input:enabled {
   margin-bottom: 20px;
 }
 
-/* media queries para tablet */
+/* media queries para mobile */
 @media screen and (max-width: 720px) {
   .inicio__izquierda {
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
   }
   .encabezado {
     font-size: 5px;
@@ -613,33 +637,26 @@ input:enabled {
   .inicio__titulo {
     font-size: 30px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .menu {
     font-size: large;
-  }
-  .inicio__parrafo {
-    font-size: 20px;
-    text-align: center;
-    padding-left: 15px;
-  }
-  .inicio__izquierda {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-  }
-  .presentacion {
-    width: 90%;
-    height: 90%;
   }
   .menu ul {
     display: inline-block;
     justify-content: center;
     text-align: center;
     list-style: none;
+  }
+  .inicio__parrafo {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 15px;
+  }
+  .presentacion {
+    width: 90%;
+    height: 90%;
   }
   .suscribir {
     padding-top: 50px;
@@ -651,13 +668,20 @@ input:enabled {
   }
 }
 
-/* media queries para mobile */
 @media screen and (max-width: 420px) {
   .encabezado {
     font-size: 5px;
     font-weight: 20px;
     text-align: left;
     height: 200px;
+  }
+  .container {
+    justify-content: center;
+    text-align: center;
+  }
+  .video iframe {
+    width: 100%;
+    justify-content: center;
   }
   .logo_encabezado h1 {
     font-size: 15px;
@@ -677,7 +701,7 @@ input:enabled {
   .inicio__titulo {
     font-size: 30px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 180px;
   }
@@ -714,18 +738,19 @@ input:enabled {
     object-fit: cover;
   }
   .container-img {
-    width: 80%;
-    height: 80%;
-    grid-template-columns: repeat(2, 1fr);
-    display: grid ;
-
-    
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    display: block;
+    padding: 20px;
   }
   .container-img .box-img img {
-    height: 80px;
+    height: 100%;
   }
   .box2 {
     display: none;
+  }
+  .pie-pagina {
+    height: 200%;
   }
   .pie-pagina .grupo-1 .imagenpit {
     position: absolute;
@@ -735,17 +760,24 @@ input:enabled {
     text-align: left;
     display: flex;
   }
-  .navbar{
-    font-size: medium;
-   text-align: left;
+  .box h2 {
+    padding-bottom: 15px;
+    color: #ffffff;
   }
-
-  .navbar button{
+  .navbar {
+    font-size: medium;
+    text-align: center;
+  }
+  .navbar button {
     justify-content: left;
     text-align: left;
     display: block;
   }
-
+  .resumen iframe {
+    justify-content: center;
+    width: 100%;
+    object-fit: cover;
+  }
   .logopit {
     min-width: 250px;
     text-align: left;
@@ -754,18 +786,17 @@ input:enabled {
   }
   .historia img {
     width: 100%;
-
   }
-  .parrafo2 img{
+  .parrafo2 img {
     width: 100%;
   }
-  .alimentacion img{
+  .alimentacion img {
     width: 100%;
   }
-  .alimentacion2 img{
+  .alimentacion2 img {
     width: 100%;
   }
-  footer{
+  footer {
     display: flex;
     text-align: center;
     align-items: center;
@@ -774,25 +805,13 @@ input:enabled {
     height: max-content;
     width: 100%;
     height: 100%;
-    
   }
-  .red-social{
+  .red-social {
     align-items: center;
     display: flex;
     justify-content: center;
-   
   }
-  .box h2{
-    
-    padding-bottom: 15px;
-    color: #ffffff;
-  }
-  
-  .grupo-2{
+  .grupo-2 {
     padding-top: 50px;
   }
-  .pie-pagina{
-    height: 200%;
-  }
-  
 }

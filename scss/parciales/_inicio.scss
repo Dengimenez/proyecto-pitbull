@@ -1,19 +1,19 @@
-.encabezado{
+ .encabezado{
     font-size: large;
     text-align: left;
-    width: 100%;
-    display: inline;
+   width: 100%;
+   display: inline;
   }
-  .navbar{
+
+  
+ .navbar{
     text-align: left;
-    justify-content: left;
-    width: 100%;
-    display: inline;
+     justify-content: left;
+     width: 100%;
+    display: inline; 
   }
-  .conteiner{
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+  
+  
   .inicioo {
     color: $color;
     min-height: 500px;
@@ -51,19 +51,20 @@
     align-items: center; 
     height: 520px;
   }
-  .collapse {
+   .collapse {
     background-color: #dba033a4;
     color: rgb(10, 9, 9);
     a {
       &:hover {
         -webkit-transform: scale(1.2);
         -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+       -ms-transform: scale(1.2);
         transform: scale(1.2);
-      }
-    }
-  }
+     }
+   }
+   }
+
   .fondoo {
     width: 50%;
     height: 100%;
@@ -78,6 +79,7 @@
       object-fit: cover;
     }
   }
+  
   .presentacion {
     width: 50%;
     height: 100%;
